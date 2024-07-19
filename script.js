@@ -1,4 +1,4 @@
-/getting elelment
+//getting elelment
 const nav=document.querySelector("nav");
      toggleBtn=nav.querySelector(".toggle-btn");
 
