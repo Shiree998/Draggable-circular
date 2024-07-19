@@ -24,3 +24,10 @@ const nav=document.querySelector("nav");
   nav.addEventListener("mouseleave", () =>{
     nav.removeEventListener("mousemove", onDrag)
   });
+
+  nav.addEventListener("mousedown", () =>{
+    nav.addEventListener("mousemove", onDrag)
+  });
+  nav.addEventListener("mouseleave", () =>{
+    nav.removeEventListener("mousemove", onDrag)
+  });
